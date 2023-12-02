@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+
+body {
+    background-color: black;
+    padding-top: 15px;
+}
+
+.header {
+    padding: 0px 5% 5% 5%;
+    /* padding-top: 10px; */
+    background-image: url('../images/white.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    /* border-bottom: solid 1px; */
+    /* height: 100vh; */
+}
+
+ul {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(11, 19, 30);
+    padding: 5px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    width: 33%;
+    text-align: center;
+    border-right: solid 1px;
+}
+
+li:last-child {
+    border: none;
+}
+
+
+
+.header h1,
+.header p,
+.header .buttons {
+    /* padding-left: 10%;
+    padding-top: 10%; */
+    text-align: left;
+    width: 50%;
+}
+
+.header h1 {
+    font-size: 100px;
+    margin-top: 10%;
+}
+
+
+.header button {
+    background-color: rgb(0, 140, 255);
+    margin: 5%;
+    width: 60px;
+    /* color: black; */
+    border: inherit;
+    border-radius: 7px;
+}
+
+button:active {
+    opacity: 80%;
+}
+
+.feather {
+    margin: 10% 0px 10% 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+article {
+    background-color: rgb(11, 19, 30);
+    border-radius: 7px;
+    width: 20%;
+
+    text-align: center;
+    padding: 3%;
+}
+
+article p,
+h2 {
+    text-align: left;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.feather article img {
+    width: 40%;
+}
+
+
+.about {
+    margin: 5%;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.about .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+.content p {
+    width: 40%;
+    margin: 30px;
+    text-align: left;
+}
+
+.contributers {
+    width: 60%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contributers h3,
+.contributers div {
+    margin-bottom: 20%;
+}
+
+.contributers div img {
+    width: 70%;
+    border-radius: 50%;
+}
+
+.contributers img {
+    width: 20%;
+}
+
+.footer {
+    font-size: small;
+}
+
+span {
+    color: aqua;
+}
+
+@media only screen and (max-width: 550px) {
+    .feather {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    article {
+        background-color: rgb(11, 19, 30);
+        border-radius: 7px;
+        width: 50%;
+        margin-bottom: 10%;
+        text-align: center;
+        padding: 3%;
+    }
+
+    .about .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5%;
+    }
+
+    .content p {
+        width: 100%;
+        margin: 30px;
+        text-align: left;
+    }
+
+
+    .contributers {
+        flex-direction: column;
+        align-items: center;
+    }
+}
