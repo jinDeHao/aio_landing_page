@@ -90,7 +90,7 @@ iframe {
 }
 
 .header h1 {
-    font-size: 100px;
+    font-size: 120px;
     margin-top: 10%;
 }
 
@@ -103,6 +103,7 @@ iframe {
     /* color: black; */
     border: inherit;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 button:hover {
@@ -155,7 +156,8 @@ h2 {
 .content p {
     width: 40%;
     margin: 30px;
-    text-align: left;
+    font-size: larger;
+    text-align: justify;
 }
 
 .contributers {
@@ -176,8 +178,8 @@ h2 {
     border-radius: 50%;
 }
 
-.contributers img {
-    width: 20%;
+.contributers a img {
+    width: 30%;
 }
 
 footer {
