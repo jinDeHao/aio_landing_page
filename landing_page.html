@@ -5,97 +5,122 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="static/style/global.css">
-    <title>AIO the landing page, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia ab recusandae minima
-        modi
-        rerum iste sint iure. Possimus pariatur, distinctio unde ex at esse officiis sapiente nihil quaerat inventore?
-        Possimus!</title>
+    <title>AIO landing page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <div><img src="/static/images/blueaio.png" alt="logo"></div>
+        <div><img
+                src="https://alx-weather-project.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.96141e61.png&w=96&q=75">
+        </div>
+
         <nav>
             <ul>
                 <li><a href="">Home</a></li>
-                <li><a href="#feather">Feather</a></li>
+                <li><a href="#feather">Features</a></li>
                 <li><a href="#about">About</a></li>
             </ul>
         </nav>
     </header>
-    <section class="header">
-        <h1>AIO</h1>
-        <p>AIO weather, comfort, credibility and excellence,<br>live in peace.</p>
-        <div class="buttons">
-            <a href="https://alx-weather-project.vercel.app/"><button>app</button></a>
-        </div>
-    </section>
-    <section class="feather" id="feather">
-        <article>
-            <img src="static/images/current.png">
-            <h2>CURRENT WEATHER</h2>
-            <p>The Current Weather feature provides users with up-to-the-minute information about the weather conditions
-                at their selected location.</p>
-            <p>It displays the current temperature, allowing users to quickly assess the current atmospheric conditions.
-            </p>
-            <p>Users can find out how fast the wind is blowing and from which direction.</p>
-            <p>Information about the level of humidity helps users understand how much moisture is in the air.</p>
-        </article>
-        <article>
-            <img src="static/images/today.png">
-            <h2>DAY<br> WEATHER</h2>
-            <p>This feature offers a detailed breakdown of the weather throughout the day, providing users with
-                forecasts for each hour.</p>
-            <p>Users can track how temperatures will change during different parts of the day.</p>
-            <p>Utilize visual icons to represent different weather conditions, making it easy for users to scan the
-                forecast.</p>
-        </article>
-        <article>
-            <img src="static/images/weekly.png">
-            <h2> WEEKLY WEATHER</h2>
-            <p>This feature gives users a broader perspective by providing a summary of the upcoming week's weather.</p>
-            <p>Displaying the expected high and low temperatures for each day helps users plan for temperature
-                variations.</p>
-            <p>Utilize visual icons to represent different weather conditions, making it easy for users to scan the
-                forecast.</p>
-        </article>
-    </section>
-    <section class="about" id="about">
-        <div class="content">
-            <p>In the early days of 2023, I found myself marveling at the unpredictability of the weather and how it
-                intricately shaped our daily lives. It was during one of those rainy afternoons, as I sat by the window
-                with a cup of steaming tea, that the idea for my weather website project was born.</p>
-            <div class="contributers">
-                <article>
-                    <h3>Badr <br>Ouydir</h3>
-                    <div><img src="https://avatars.githubusercontent.com/u/29177999?v=4"></div>
-                    <a href="https://github.com/badrxd"><img src="static/images/github.svg"></a>
-                    <a href="https://www.linkedin.com/in/badr-eddine-oyudir/"><img src="static/images/linkedin.svg"></a>
-                    <a href=""><img src="static/images/twitter.svg"></a>
-                </article>
-                <article>
-                    <h3>Jawad <br>Assoul</h3>
-                    <div><img src="https://avatars.githubusercontent.com/u/38533122?v=4"></div>
-                    <a href="https://github.com/assouljawad"><img src="static/images/github.svg"></a>
-                    <a href=""><img src="static/images/linkedin.svg"></a>
-                    <a href=""><img src="static/images/twitter.svg"></a>
-                </article>
-                <article>
-                    <h3>Omar <br>Id hmaid</h3>
-                    <div><img src="https://avatars.githubusercontent.com/u/125525303?v=4"></div>
-                    <a href="https://github.com/jinDeHao"><img src="static/images/github.svg"></a>
-                    <a href="https://twitter.com/o_idhmaid"><img src="static/images/linkedin.svg"></a>
-                    <a href="https://linkedin.com/in/omar-id-hmaid"><img src="static/images/twitter.svg"></a>
-                </article>
+    <main>
+        <section class="header">
+            <div class="title">
+                <h1>AIO</h1>
+                <p>AIO weather, comfort, credibility and excellence.</p>
+                <div class="buttons">
+                    <a href="https://alx-weather-project.vercel.app/"><button>app</button></a>
+                    <a href="https://github.com/badrxd/alx-weather-project"><button>github</button></a>
+                </div>
             </div>
-        </div>
-        <p class="footer">click <a href="https://github.com/badrxd/alx-weather-project"><span>here</span></a> to check
-            the project</p>
-    </section>
+            <div class="app">
+                <iframe id="appFrame" title="app" width="400" height="600"
+                    src="https://alx-weather-project.vercel.app/">
+                </iframe>
+            </div>
+        </section>
+        <section class="feather" id="feather">
+            <article>
+                <img src="static/images/current.png">
+                <h2>CURRENT WEATHER</h2>
+                <p>The Current Weather feature provides users with up-to-the-minute information about the weather
+                    conditions
+                    at their selected location.</p>
+                <p>It displays the current temperature, allowing users to quickly assess the current atmospheric
+                    conditions.
+                </p>
+                <p>Users can find out how fast the wind is blowing and from which direction.</p>
+                <p>Information about the level of humidity helps users understand how much moisture is in the air.</p>
+            </article>
+            <article>
+                <img src="static/images/today.png">
+                <h2>DAY WEATHER</h2>
+                <p>This feature offers a detailed breakdown of the weather throughout the day, providing users with
+                    forecasts for each hour.</p>
+                <p>Users can track how temperatures will change during different parts of the day.</p>
+                <p>Utilize visual icons to represent different weather conditions, making it easy for users to scan the
+                    forecast.</p>
+            </article>
+            <article>
+                <img src="static/images/weekly.png">
+                <h2> WEEKLY WEATHER</h2>
+                <p>This feature gives users a broader perspective by providing a summary of the upcoming week's weather.
+                </p>
+                <p>Displaying the expected high and low temperatures for each day helps users plan for temperature
+                    variations.</p>
+                <p>Utilize visual icons to represent different weather conditions, making it easy for users to scan the
+                    forecast.</p>
+            </article>
+        </section>
+        <section class="about" id="about">
+            <div class="content">
+
+                <p>
+                    As we went through the ALX curriculum, we learned about how APIs work. When our project started,
+                    we
+                    thought about using what we learned about APIs and HTTP requests. We found that a Weather API is
+                    a
+                    popular and free option that we can use. We also realized that mastering APIs and HTTP requests
+                    would be a good practice, so we decided to include it in our project.</p>
+                <div class="contributers">
+                    <article>
+                        <h3>Badr <br>Ouydir</h3>
+                        <div><img src="https://avatars.githubusercontent.com/u/29177999?v=4"></div>
+                        <a href="https://github.com/badrxd"><img src="static/images/github.png"></a>
+                        <a href="https://www.linkedin.com/in/badr-eddine-oyudir/"><img
+                                src="static/images/linkedin.png"></a>
+                        <a href=""><img src="static/images/twitter.png"></a>
+                    </article>
+                    <article>
+                        <h3>Jawad <br>Assoul</h3>
+                        <div><img src="https://avatars.githubusercontent.com/u/38533122?v=4"></div>
+                        <a href="https://github.com/assouljawad"><img src="static/images/github.png"></a>
+                        <a href=""><img src="static/images/linkedin.png"></a>
+                        <a href=""><img src="static/images/twitter.png"></a>
+                    </article>
+                    <article>
+                        <h3>Omar <br>Id hmaid</h3>
+                        <div><img src="https://avatars.githubusercontent.com/u/125525303?v=4"></div>
+                        <a href="https://github.com/jinDeHao"><img src="static/images/github.png"></a>
+                        <a href="https://linkedin.com/in/omar-id-hmaid"><img src="static/images/linkedin.png"></a>
+                        <a href="https://twitter.com/o_idhmaid"><img src="static/images/twitter.png"></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!-- <center>
+            <p>click <a href="https://github.com/badrxd/alx-weather-project"><span>here</span></a> to
+                check
+                the project</p>
+        </center> -->
+
+    </footer>
 </body>
 
 </html>
