@@ -167,22 +167,22 @@ h1 {
   content: "";
   background-color: #48abe0;
   height: 1px;
-  width: 130px;
+  width: 120px;
   min-width: 50px;
   position: absolute;
   top: 60%;
   transform: translateY(-50%);
-  left: -140px;
+  left: -130px;
 }
 .after::after {
   content: "";
   background-color: #48abe0;
   height: 1px;
-  width: 130px;
+  width: 120px;
   position: absolute;
   top: 60%;
   transform: translateY(-50%);
-  right: -140px;
+  right: -130px;
 }
 .Features_articles {
   display: flex;
@@ -331,13 +331,31 @@ h1 {
   width: 100%;
   text-align: center;
 }
+
+.iframe {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.iframe iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 400px;
+  width: 70%;
+  height: 70%;
+}
+
 @media only screen and (max-width: 700px) {
   .about_img {
     position: absolute;
     width: 100%;
     top: 45px;
     right: 0;
-    /* left: 50%; */
   }
   .about_img img {
     width: 100px;
