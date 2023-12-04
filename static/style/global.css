@@ -109,7 +109,7 @@ main {
 
 .main_section {
   height: 600px;
-  background-image: url("/static/images/background.png");
+  background-image: url("static/images/background.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
