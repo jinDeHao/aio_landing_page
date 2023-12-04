@@ -373,4 +373,15 @@ h1 {
   .about_img {
     top: 80px;
   }
+  .Features_articles article {
+    height: fit-content;
+  }
+  .before::before {
+    width: 90px;
+    left: -100px;
+  }
+  .after::after {
+    width: 90px;
+    right: -100px;
+  }
 }
