@@ -109,7 +109,7 @@ main {
 
 .main_section {
   height: 600px;
-  background-image: url("static/images/background.png");
+  background-image: url("https://jindehao.github.io/aio_landing_page/static/images/background.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -366,5 +366,11 @@ h1 {
   }
   .about_text {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 429px) {
+  .about_img {
+    top: 80px;
   }
 }
