@@ -1,4 +1,0 @@
-The Current Weather feature provides users with up-to-the-minute information about the weather conditions at their selected location.
-It displays the current temperature, allowing users to quickly assess the current atmospheric conditions.
-Users can find out how fast the wind is blowing and from which direction.
-Information about the level of humidity helps users understand how much moisture is in the air.
